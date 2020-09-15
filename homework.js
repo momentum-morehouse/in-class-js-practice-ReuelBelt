@@ -4,13 +4,20 @@
 // console log your variable
 // reassign your variable the value "peach"
 // console log your variable
+let fruit = "banana";
+console.log(fruit);
+fruit = "peach";
+console.log(fruit);
 
 // Problem 2
 // write a function called product that accepts two numbers and 
 // logs the product in the console and then
 // returns the answer when you multiply them both together
 // call that function on the numbers 4 & 689 to test it
-
+function product (numbers) { //created a function called product and used numbers as paramaters?
+    console.log(product) //told computer to log the product
+    return product * numbers //told computer to do the arithmetic of multiplying product by numbers
+}
 // Problem 3
 // write a function called evens that takes an array of numbers, removes 
 // all the numbers that are odd and returns a new array with only the even numbers
